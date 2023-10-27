@@ -9,7 +9,7 @@ header nav {
 header ul {
   list-style: none;
   color: black;
-  margin-left: -40px;
+  margin-left: 10px;
 }
 
 header a {
@@ -34,4 +34,9 @@ header a {
   margin-top: 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
+}
+
+div.header--banner img {
+  width: 100%;
+  padding-bottom: 15px;
 }
