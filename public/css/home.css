@@ -5,3 +5,10 @@
 .home h4 {
     text-align: center
 }
+
+.main--content div{
+    margin-bottom: 10px;
+    background: white;
+    padding: 5px
+}
+
