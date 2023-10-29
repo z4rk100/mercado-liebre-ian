@@ -40,3 +40,17 @@ div.header--banner img {
   width: 100%;
   padding-bottom: 15px;
 }
+
+/*movil*/
+@media (max-width: 360px) {
+  header ul {
+    display: none
+  }
+}
+
+/*tablet*/
+@media (min-width: 361px) {
+  .burger-menu {
+    display: none
+  }
+}

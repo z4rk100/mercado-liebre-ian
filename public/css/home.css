@@ -9,7 +9,7 @@ body {
 }
 
 .home {
-    background-color: #EAC926;;
+    background-color: #EAC926;
 }
 
 .home h4 {
@@ -18,21 +18,58 @@ body {
 
 .main--content {
     background-color: #ebebeb;
-    padding: 15px
 }
 
 .main--content h3 {
-    margin-left: 30px
+    margin-left: 10px
 }
 
 .main--content div{  
-    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     padding: 15px;
     background: white;
 }
 
-.main--content div img {
-    width: 100%;
-    height: 100% 
+.main--content .img {
+    margin-bottom: 1px;
 }
+
+.main--content .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.main--content div i {
+    color: #39b54a
+}
+
+.oferta {
+    color: #39b54a
+}
+
+/*tablet*/
+@media (min-width: 361px) {
+    .main--content div {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .main--content .img {
+        margin-bottom: 0px;
+    }
+}
+
+/*desktop*/
+@media (min-width: 769px) {
+    .main--content div {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .main--content .img {
+        margin-bottom: 0px;
+    }
+}
+
+
 
