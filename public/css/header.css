@@ -1,4 +1,4 @@
-header nav {
+.nav--text {
   background-color: white;
   width: 183px;
   border: solid 1px black;
@@ -51,6 +51,6 @@ div.header--banner img {
 /*tablet*/
 @media (min-width: 361px) {
   .burger-menu {
-    display: none
+    display: none;
   }
 }
